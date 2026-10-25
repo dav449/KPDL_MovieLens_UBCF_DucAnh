@@ -1,0 +1,6 @@
+﻿Giai đoạn / Mô hình,RMSE (↓),MAE (↓),Novelty@10 (bits ↑),Coverage@10 (% ↑),Đa dạng chủng loại ILD (% ↑),Cặp hàng xóm ảo (|Sim|≈1),Thời gian (s)
+GĐ 1A: Content-Based (Genres),0.9137,0.71,3.4372,14.42,38.69,0,0.1
+GĐ 1B: UBCF Cosine Thô,0.9652,0.743,2.4402,3.84,63.33,28027,1.22
+GĐ 2: UBCF + Pearson Z-Score,0.8749,0.6648,3.4944,26.49,72.92,2601,1.72
+GĐ 3: GĐ2 + Sig. Weighting (β=25),0.8654,0.6558,3.2411,21.66,71.66,0,2.04
+GĐ 4: GĐ3 + IUF (SW + IUF),0.8649,0.6555,4.1805,26.02,72.83,0,1.91
